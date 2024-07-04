@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="main-container" class="main-container">
+        <div class="search">
+            <input type="text" id="input" placeholder="your city...">
+            <i class='bx bx-search-alt-2' id="btn"></i>
+        </div>
+        <div class="weather-info">
+            <div class="img-div">
+                <img id="weather-icon" src="">
+            </div>
+            <div class="temp">
+                <h2 id="temperature">C</h2>
+            </div>
+            <div class="city">
+                <h2 id="city-name">City</h2>
+            </div>
+            <div class="forecast">
+                <div class="left-cont">
+                    <div>
+                        <img src="humidity.png" width="45px" height="45px">
+                    </div>
+                    <div class="humidity">
+                        <h3 id="humidity">48%</h3>
+                        <h4>Humidity</h4>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <div>
+                        <img src="wind.png" width="45px" height="45px">
+                    </div>
+                    <div class="humidity">
+                        <h3 id="wind-speed">10.3km/h</h3>
+                        <h4>Wind Speed</h4>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
